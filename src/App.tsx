@@ -12,7 +12,7 @@ function App() {
     <Router>
       <div className="app-container">
         <Navbar />
-        
+
         <main className="content-wrapper">
           <Routes>
             <Route path="/" element={<Home />} />
@@ -21,6 +21,7 @@ function App() {
             <Route path="/another-action" element={<AnotherAction />} />
             <Route path="/something-else" element={<SomethingElse />} />
           </Routes>
+
         </main>
 
         <footer className="py-3 my-4 border-top">
