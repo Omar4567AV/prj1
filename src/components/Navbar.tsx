@@ -6,13 +6,13 @@ const Navbar: React.FC = () => {
         <nav className="navbar navbar-expand-lg bg-body-tertiary shadow-sm">
             <div className="container-fluid">
                 <Link className="navbar-brand fw-bold" to="/">Navbar</Link>
-                <button 
-                    className="navbar-toggler" 
-                    type="button" 
-                    data-bs-toggle="collapse" 
-                    data-bs-target="#navbarSupportedContent" 
-                    aria-controls="navbarSupportedContent" 
-                    aria-expanded="false" 
+                <button
+                    className="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent"
+                    aria-expanded="false"
                     aria-label="Toggle navigation"
                 >
                     <span className="navbar-toggler-icon"></span>
@@ -26,11 +26,11 @@ const Navbar: React.FC = () => {
                             <NavLink className="nav-link" to="/link">Link</NavLink>
                         </li>
                         <li className="nav-item dropdown">
-                            <a 
-                                className="nav-link dropdown-toggle" 
-                                href="#" 
-                                role="button" 
-                                data-bs-toggle="dropdown" 
+                            <a
+                                className="nav-link dropdown-toggle"
+                                href="#"
+                                role="button"
+                                data-bs-toggle="dropdown"
                                 aria-expanded="false"
                             >
                                 Dropdown
@@ -48,8 +48,9 @@ const Navbar: React.FC = () => {
                     </ul>
                     <form className="d-flex" role="search">
                         <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
-                        <button className="btn btn-outline-success" type="submit">Search</button>
+                        <button className="btn btn-outline-success me-2" type="submit">Search</button>
                     </form>
+                    <NavLink className="btn btn-primary" to="/login">Login</NavLink>
                 </div>
             </div>
         </nav>

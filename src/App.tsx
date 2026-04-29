@@ -1,6 +1,7 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
+import Login from './pages/login';
 import LinkPage from './pages/LinkPage';
 import Action from './pages/Action';
 import AnotherAction from './pages/AnotherAction';
@@ -16,6 +17,7 @@ function App() {
         <main className="content-wrapper">
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/login" element={<Login />} />
             <Route path="/link" element={<LinkPage />} />
             <Route path="/action" element={<Action />} />
             <Route path="/another-action" element={<AnotherAction />} />
