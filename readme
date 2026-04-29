@@ -1,0 +1,13 @@
+# Project Summary
+
+## Tasks Completed:
+- Fixed TypeScript `void` return errors.
+- Fixed JSX parent element errors.
+- Removed Bootstrap and moved to custom CSS.
+- Installed and configured Tailwind CSS v4.
+- Created a premium Login page.
+- Added routing for /login.
+
+## How to run:
+cd my-hk
+npm run dev
